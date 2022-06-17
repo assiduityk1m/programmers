@@ -1,20 +1,24 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Level1
 {
-    class Program
+    class chapter1
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(Program.CenterValue("programmers"));
-        }
+    
+        /// <summary>
+        /// 가운데 글자 가져오기
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
         public static string CenterValue(string s)
         {
             string answer = "";
 
             if (s.Length % 2 == 0 && s.Length != 0)
             {
-
+                 
                 //answer += s[s.Length / 2  - 1];
                 //answer += s[s.Length / 2];
 
