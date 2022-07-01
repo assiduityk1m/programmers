@@ -4,14 +4,9 @@ using System.Text;
 
 namespace Level1
 {
+    //chapter1 - 가운데 글자 가져오기
     class chapter1
-    {
-    
-        /// <summary>
-        /// 가운데 글자 가져오기
-        /// </summary>
-        /// <param name="s"></param>
-        /// <returns></returns>
+    {  
         public static string CenterValue(string s)
         {
             string answer = "";

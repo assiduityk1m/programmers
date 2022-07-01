@@ -7,7 +7,12 @@ namespace Level1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(chapter1.CenterValue("programmers"));
+            //chapter1 - 가운데 글자 가져오기
+            //Console.WriteLine(chapter1.CenterValue("programmers"));
+
+
+            c
         }
+
     }
 }
