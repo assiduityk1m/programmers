@@ -7,6 +7,7 @@ namespace Level1
     //chapter2 - 로또의 최고 순위와 최저 순위
     public class chapter2
     {
+        
         public static int[] solution(int[] lottos, int[] win_nums)
         {
             int sameValue = 0;
@@ -38,7 +39,20 @@ namespace Level1
 
             return answer;
         }
-    }
 
-   
+        public static void Chapter2()
+        {
+            int[] Lottos;
+            int[] Win_nums;
+            Lottos = new int[6] { 44, 1, 0, 0, 31, 25 };
+            Win_nums = new int[6] { 31, 10, 45, 1, 6, 19 };
+
+            int[] answer;
+            answer = solution(Lottos, Win_nums);
+
+            Console.WriteLine("로또의 최고순위는 " +  Convert.ToString(answer[0]) +
+                "등 최저순위는 " +  Convert.ToString(answer[1]) + "등 입니다.");
+            
+        }
+    }
 }

@@ -26,8 +26,12 @@ namespace Level1
                 answer += s[s.Length / 2];
             }
 
-            return answer;
-            
+            return answer;          
+        }
+
+        public static void Chapter1()
+        {
+            Console.WriteLine("가운데 글자는 " + CenterValue("programmers") + "입니다.");
         }
     }
 }
