@@ -5,7 +5,7 @@ using System.Text;
 namespace Level1
 {
     //chapter1 - 가운데 글자 가져오기
-    class chapter1
+    public class chapter1
     {  
         public static string CenterValue(string s)
         {
