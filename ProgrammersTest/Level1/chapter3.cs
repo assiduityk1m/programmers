@@ -7,7 +7,8 @@ namespace Level1
     //chapter3 - 직사각형 별찍기
     public class chapter3
     {      
-        public static void Chapter3()
+       
+           public static void Chapter3()
         {
             String[] s;
 
