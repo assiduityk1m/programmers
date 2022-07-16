@@ -13,7 +13,11 @@ namespace Level1
             String[] s;
 
             Console.Clear();
-            s = Console.ReadLine().Split(' ');
+            s = Console.ReadLine().Split(' '); //입력후 스페이스바
+
+
+
+
 
             int a = Int32.Parse(s[0]);
             int b = Int32.Parse(s[1]);
