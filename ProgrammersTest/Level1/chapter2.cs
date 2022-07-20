@@ -50,9 +50,13 @@ namespace Level1
             int[] answer;
             answer = solution(Lottos, Win_nums);
 
-            Console.WriteLine("로또의 최고순위는 " +  Convert.ToString(answer[0]) +
-                "등 최저순위는 " +  Convert.ToString(answer[1]) + "등 입니다.");
-            
+            //Console.WriteLine("로또의 최고순위는 " +  Convert.ToString(answer[0]) + "등 최저순위는 " +  Convert.ToString(answer[1]) + "등 입니다.");
+
+            //한번에 배열 출력하기
+            foreach (var item in answer)
+            {
+                Console.WriteLine(item.ToString());
+            }
         }
     }
 }
